@@ -2,8 +2,9 @@
 I used the Pillow package for my plugin.
 
 In this script I will show you how to change the colors of your image, add a watermark, and make the image spooky.
+To run these use python inside of powershell or comand prompt.
 
-Download any image from the internet and save it to your computor.
+Download any image from the internet and save it to your computer.
 
 To begin this code will change the rgb of the image:
 
