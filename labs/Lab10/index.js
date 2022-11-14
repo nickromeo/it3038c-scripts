@@ -14,8 +14,8 @@ app.get('/', function(request, response) {
 
 app.get('/api', (request, response) => {
     fs.readFile("./public/widgets.json", "UTF-8", (err, body) => {
-            res.writeHead(200, {"Content-Type": "text/JSON"})
-            res.end(body)
+            response.writeHead(200, {"Content-Type": "text/JSON"})
+            response.end(body)
     })
 })
 
