@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 const config = require('config')
 const { response } = require('express')
-const ting = require('ting')
+const fs = require('fs')
 
 
 app.set('port', (process.env.PORT || 5000))
@@ -13,7 +13,7 @@ app.get('/', function(request, response) {
 })
 
 app.get('/api', (request, response) => {
-    ting.readFile("./public/widgets.json", "UTF-8", (err, body) => {
+    fs.readFile("./public/widgets.json", "UTF-8", (err, body) => {
             res.writeHead(200, {"Content-Type": "text/JSON"})
             res.end(body)
     })
