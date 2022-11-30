@@ -1,0 +1,6 @@
+Hello and Welcome to the Tic Tac Toe Game. This is the same game but with a little twist. The Geinus Computer is hard to beat. Can you defeat him????
+
+To play the game, download or copy all python files and run the game file to play. The game will display in the console.
+The super game file is just to show how powerful the Geinus Computer is. After you run the super-game.py file, it will take a minute or so for the result to pop up but it should display in the console.
+
+I followed a video from Kylie Ying (https://www.youtube.com/watch?v=8ext9G7xspg&t=3599s&ab_channel=freeCodeCamp.org)
